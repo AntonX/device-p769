@@ -22,5 +22,5 @@ UTC_DATE := $(shell date +%s)
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=${UTC_DATE}\
 
 # Enable Torch
-PRODUCT_PACKAGES += Torch
+PRODUCT_PACKAGES += Torch LgeL9Parts
 
